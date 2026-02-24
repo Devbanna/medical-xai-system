@@ -1,6 +1,6 @@
 # Cardio-Aura: Clinical Decision Support with Explainable AI (XAI)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medical-xai-systemgit-9lambocncywtd2sjp6edly.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medical-xai-system-o2earsxkbizhjiefts2v68.streamlit.app/)
 
 Cardio-Aura is a professional-grade diagnostic tool designed to predict heart disease risk. Unlike standard "black-box" models, this system focuses on **Model Interpretability**, providing clear, visual explanations for every prediction using Game Theory (SHAP).
 
@@ -80,8 +80,7 @@ I realized that common users might not immediately understand terms like "ST Dep
 
 3. **Run the Dashboard:**
     ```bash
-    https://medical-xai-systemgit-9lambocncywtd2sjp6edly.streamlit.app/
-
+    https://medical-xai-system-o2earsxkbizhjiefts2v68.streamlit.app/
 
 ## 📁 Project Structure
 
