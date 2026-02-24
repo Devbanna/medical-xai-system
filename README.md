@@ -80,8 +80,7 @@ I realized that common users might not immediately understand terms like "ST Dep
 
 3. **Run the Dashboard:**
     ```bash
-    https://medical-xai-system-o2earsxkbizhjiefts2v68.streamlit.app/
-
+    streamlit run app/app.py
 ## 📁 Project Structure
 
 ```text
