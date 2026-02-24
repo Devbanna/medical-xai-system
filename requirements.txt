@@ -1,13 +1,9 @@
-# Data Processing & Persistence
-numpy
+streamlit>=1.35.0
 pandas
+numpy
 scikit-learn
-joblib
-
-# Web Framework & Visualization
-streamlit
-plotly
-matplotlib
-
-# Explainable AI (XAI)
 shap
+matplotlib
+plotly
+joblib
+altair==4.2.2
