@@ -3,6 +3,9 @@
 Cardio-Aura is a professional-grade diagnostic tool designed to predict heart disease risk. Unlike standard "black-box" models, this system focuses on **Model Interpretability**, providing clear, visual explanations for every prediction using Game Theory (SHAP).
 
 ---
+# Cardio-Aura: Clinical Decision Support with Explainable AI (XAI)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medical-xai-systemgit-9lambocncywtd2sjp6edly.streamlit.app/)
 
 ## 🩺 The Dashboard in Action
 
@@ -71,14 +74,28 @@ I realized that common users might not immediately understand terms like "ST Dep
    git clone https://github.com/Devbanna/medical-xai-system.git 
    cd medical-xai-system
 
-2. **Install Dependencies::**
+2. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
 
 3. **Run the Dashboard:**
-    '''bash
-    streamlit run app/app.py
+    ```bash
+    https://medical-xai-systemgit-9lambocncywtd2sjp6edly.streamlit.app/
+
 
 ## 📁 Project Structure
 
-![Project Structure](./images/project_structure.png)
+```text
+medical-xai-system/
+├── app/
+│   └── app.py              # Main Dashboard Logic
+├── models/
+│   ├── rf_model.pkl        # Trained Random Forest Classifier
+│   └── scaler.pkl          # Feature Scaling Pipeline
+├── data/
+│   └── heart.csv           # UCI Heart Disease Dataset
+├── docs/
+│   └── model_report.md     # Technical Performance Metrics
+├── images/                 # UI/UX and XAI Visual Assets
+├── requirements.txt        # Dependency Mapping
+└── README.md               # Engineering Journey
