@@ -68,7 +68,7 @@ I realized that common users might not immediately understand terms like "ST Dep
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Devbanna/medical-xai-system.git](https://github.com/yourusername/medical-xai-system.git)
+   git clone https://github.com/Devbanna/medical-xai-system.git 
    cd medical-xai-system
 
 2. **Install Dependencies::**
@@ -81,13 +81,4 @@ I realized that common users might not immediately understand terms like "ST Dep
 
 ## 📁 Project Structure
 
-medical-xai-system/
-├── app/
-│   └── app.py          # Main Streamlit Application (Frontend & XAI Logic)
-├── models/
-│   ├── rf_model.pkl    # Trained Random Forest Classifier
-│   └── scaler.pkl      # Pre-trained StandardScaler for normalization
-├── data/
-│   └── dataset.csv     # UCI Heart Disease Dataset
-├── requirements.txt    # Project dependencies and versioning
-└── README.md           # Project documentation and engineering journey
+![Project Structure](./images/project_structure.png)
